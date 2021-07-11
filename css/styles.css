@@ -1,0 +1,82 @@
+body {
+  font-family: "montserrat";
+  overflow-x: hidden;
+}
+
+#title {
+  background-color: rgb(255, 75, 105);
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.apple-logo {
+  width: 15px;
+  float: unset;
+  position: relative;
+  margin-bottom: 5px;
+}
+.meet {
+}
+.col-lg-6 {
+  margin-top: 100px;
+}
+/* iphone rotate */
+#iphone {
+  float: unset;
+  max-width: 350px;
+  width: 70%;
+  transform: rotate(15deg);
+  margin: 20px 0 0 50px;
+}
+.no-overflow {
+  overflow: hidden;
+  height: 750px;
+}
+/* navbars */
+.nav-item {
+  padding: 0 30px 0 40px;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 40px;
+  font-weight: 600;
+}
+.d-button {
+  margin: 5% 5% 0 0;
+}
+h3 {
+  font-weight: 700;
+}
+#features {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.center-original {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+p.center-original {
+  font-weight: 600;
+  color: rgb(180, 180, 180);
+}
+.margin-auto {
+  display: flex;
+
+  justify-content: center;
+}
+.img-row {
+  color: rgb(223, 90, 112);
+  margin: 40px 0 10px 0;
+}
+.img-row:hover {
+  color: rgb(179, 97, 112);
+}
