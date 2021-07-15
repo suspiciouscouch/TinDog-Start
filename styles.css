@@ -1,10 +1,14 @@
 body {
   font-family: "montserrat";
   overflow-x: hidden;
+  text-align: center;
 }
+
+/* title section */
 
 #title {
   background-color: rgb(255, 112, 136);
+  text-align: left;
 }
 
 h2 {
@@ -12,6 +16,10 @@ h2 {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 800;
+}
+
+.left-row {
+  padding-top: 40px;
 }
 
 h1 {
@@ -24,29 +32,25 @@ h1 {
 .container-fluid {
   padding: 3% 15%;
 }
-.apple-logo {
-  width: 15px;
-  float: unset;
-  position: relative;
-  margin-bottom: 5px;
-}
 
-.col-lg-6 {
-  margin-top: 100px;
-}
 /* iphone rotate */
 #iphone {
-  float: unset;
   max-width: 350px;
   width: 70%;
   transform: rotate(15deg);
-  margin: 20px 0 0 50px;
+  position: absolute;
+  right: 20%;
 }
 .no-overflow {
   overflow: hidden;
   height: 750px;
 }
+
 /* navbars */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
 .nav-item {
   padding: 0 30px 0 40px;
 }
@@ -81,7 +85,8 @@ p.center-original {
 }
 .img-row {
   color: rgb(255, 112, 136);
-  margin: 40px 0 10px 0;
+  margin: auto;
+  text-align: center;
 }
 .img-row:hover {
   color: rgb(179, 97, 112);
