@@ -4,7 +4,14 @@ body {
 }
 
 #title {
-  background-color: rgb(255, 75, 105);
+  background-color: rgb(255, 112, 136);
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
 }
 
 h1 {
@@ -23,8 +30,7 @@ h1 {
   position: relative;
   margin-bottom: 5px;
 }
-.meet {
-}
+
 .col-lg-6 {
   margin-top: 100px;
 }
@@ -74,9 +80,45 @@ p.center-original {
   justify-content: center;
 }
 .img-row {
-  color: rgb(223, 90, 112);
+  color: rgb(255, 112, 136);
   margin: 40px 0 10px 0;
 }
 .img-row:hover {
   color: rgb(179, 97, 112);
+}
+#features {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/* Testimonials */
+#testimonials {
+  padding: 10% 10% 10% 10%;
+  text-align: center;
+  background-color: rgb(255, 112, 136);
+  color: white;
+  font-weight: 600;
+  font-size: ;
+  text-transform: ;
+}
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+}
+
+#h2-1 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#press {
+  background-color: rgb(255, 112, 136);
+  text-align: center;
+  padding-bottom: 10%;
+}
+.press-image {
+  width: 15%;
+  margin: 0 3%;
 }
