@@ -44,9 +44,9 @@
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -69,7 +69,7 @@
 
         <!-- Title -->
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 btn-center">
             <h1 class="meet">Meet new and interesting dogs nearby.</h1>
             <button type="button" class="d-button btn btn-lg btn-dark">
               <i class="fab fa-apple"></i> Download
@@ -81,7 +81,7 @@
             </button>
           </div>
 
-          <div class="col-lg-6 col-md-3">
+          <div class="col-lg-6 iphone-div">
             <img id="iphone" src="images/iphone6.png" alt="iphone-mockup" />
           </div>
         </div>
@@ -258,15 +258,24 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 class="cta-h3">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="d-button btn btn-dark download-btn">
+        <i class="fab fa-apple"></i> Download
+      </button>
+      <button type="button" class="d-button btn btn-light download-btn">
+        <i class="fab fa-google-play"></i> Download
+      </button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright 2018 TinDog</p>
+      <!-- font awesome icons -->
+      <i class="fab fa-twitter footer-icon"></i>
+      <i class="fab fa-facebook-f footer-icon"></i>
+      <i class="fab fa-instagram footer-icon"></i>
+      <i class="fas fa-envelope footer-icon"></i>
+      <p class="footer-p">© Copyright 2018 TinDog</p>
     </footer>
     <!-- js bootstrap -->
     <script

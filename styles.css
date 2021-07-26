@@ -9,7 +9,6 @@ body {
 #title {
   background-color: rgb(255, 112, 136);
   text-align: left;
-  height: 100%;
 }
 
 h2 {
@@ -17,9 +16,6 @@ h2 {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 800;
-}
-
-.left-row {
 }
 
 h1 {
@@ -30,15 +26,26 @@ h1 {
   text-transform: uppercase;
 }
 .container-fluid {
-  padding: 5% 15% 9% 15%;
+  padding: 5% 15% 12% 15%;
+  /* padding: 7% 15%; */
 }
 
 /* iphone rotate */
 #iphone {
-  height: 90%;
+  width: 20%;
+  /* height: 90%; */
   transform: rotate(20deg);
   position: absolute;
-  right: 24%;
+  right: 23%;
+  /* width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%; */
+}
+
+.meet {
+  position: relative;
+  z-index: 1;
 }
 
 /* navbars */
@@ -55,7 +62,7 @@ h1 {
   font-weight: 600;
 }
 .d-button {
-  margin: 5% 5% 7% 0;
+  margin: 5px 5px;
 }
 h3 {
   font-weight: 700;
@@ -96,7 +103,6 @@ h3 {
   color: white;
   font-weight: 600;
   font-size: ;
-  text-transform: ;
 }
 .carousel-item {
   padding: 10% 10% 10% 10%;
@@ -140,4 +146,84 @@ li {
 }
 .h4 {
   font-weight: 700;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+    display: inline-block;
+  }
+  .container-fluid {
+    padding-bottom: 5%;
+  }
+  #iphone {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+    /* height: 60%; */
+    display: inline-block;
+    padding-top: 20px;
+  }
+  [class*="meet"] {
+    text-align: center;
+    font-size: 300%;
+  }
+}
+
+/* media */
+@media only screen and (max-width: 768px) {
+  /* mobile and portrait style changes */
+
+  /* the *= means classes that contain the letters=... */
+  [class*="meet"] {
+    text-align: center;
+    font-size: 300%;
+  }
+  [class*="btn-center"] {
+    text-align: center;
+  }
+  [id*="iphone"] {
+    position: static;
+    margin: auto;
+    text-align: center;
+    display: none;
+  }
+
+  [class*="navbar-brand"] {
+    font-size: 30px;
+  }
+  [class*="nav-link"] {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/* call to action */
+#cta {
+  background-color: rgb(255, 112, 136);
+  padding: 80px 80px 110px 80px;
+}
+.cta-h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 30px 190px 50px 190px;
+}
+
+.download-btn {
+  margin: 0 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* footer */
+#footer {
+  padding: 80px 80px;
+}
+.footer-icon {
+  margin: 20px 15px;
+}
+.footer-p {
+  font-weight: 600;
+  color: rgb(155, 155, 155);
 }
